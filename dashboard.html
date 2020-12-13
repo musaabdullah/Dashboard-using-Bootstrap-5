@@ -7,148 +7,182 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>لوحة التحكم</title>
+
+    <style>
+      a{
+        text-decoration:none;
+      }
+      a:hover{
+        background-color:steelblue;
+        border-radius:3px;
+        color:white;
+      }
+    </style>
   </head>
   <body dir="rtl">
     
-    <div class="container-fluid">
-      <div class="row mt-5">
-        <div class="col-lg-3 col-md-4">
-          <div class="card">
-            <div class="card-body ">
+    <div class="container">
+      <div class="row mt-5 ">
+        <div class="col-lg-2 col-md-3">
+          <div class="card bg-primary">
+            <div class="card-body">
+              
+              
               <div class="btn-group-vertical">
-                <a class="btn ">الرئسية</a>
-                <a class="btn ">الطلاب</a>
-                <a class="btn ">الأساتذه</a>
-                <a class="btn ">اولويه الامور</a>
-                <a class="btn ">المواد</a>
-                <a class="btn ">الاقسام</a>
-                <a class="btn ">الوحده</a>
-                <a class="btn ">الفصول</a>
-                <a class="btn ">ادارة الحضور</a>
-                <a class="btn ">الامتحانات</a>
-                <a class="btn ">ادارة الدرجات</a>
-                <a class="btn ">الحسابات</a>
-                <a class="btn ">الرسائل</a>
-                <a class="btn ">الترحيل</a>
-                <a class="btn ">المكتبه</a>
-                <a class="btn ">الاعدادات</a>
+              
+                <a class="btn text-white" style="text-align: right;"><i class="fa fa-home"></i> الرئسية</a>
+                <a class="btn text-white " style="text-align: right;"><i class="fa fa-group"></i> الطلاب</a>
+                <a class="btn text-white" style="text-align: right;"><i class="fa fa-users"></i> الأساتذه</a>
+                <a class="btn text-white" style="text-align: right;"><i class="fa fa-user"></i> اولويه الامور</a>
+                <a class="btn text-white" style="text-align: right;"><i class="fa fa-align-center"></i> المواد</a>
+                <a class="btn text-white" style="text-align: right;"><i class="fa fa-list"></i> الاقسام</a>
+                <a class="btn text-white" style="text-align: right;"><i class="fa fa-navicon"></i> الوحده</a>
+                <a class="btn text-white" style="text-align: right;"><i class="fa fa-sitemap"></i> الفصول</a>
+                <a class="btn text-white" style="text-align: right;"><i class="fa fa-edit"></i> ادارة الحضور</a>
+                <a class="btn text-white" style="text-align: right;"><i class="fa fa-graduation-cap"></i> الامتحانات</a>
+                <a class="btn text-white" style="text-align: right;"><i class="fa fa-star"></i> ادارة الدرجات</a>
+                <a class="btn text-white" style="text-align: right;"><i class="fa fa-credit-card"></i> الحسابات</a>
+                <a class="btn text-white" style="text-align: right;"><i class="fa fa-envelope-o"></i> الرسائل</a>
+                <a class="btn text-white" style="text-align: right;"><i class="fa fa-bus"></i> الترحيل</a>
+                <a class="btn text-white" style="text-align: right;"><i class="fa fa-book"></i> المكتبه</a>
+                <a class="btn text-white" style="text-align: right;"><i class="fa fa-gear"></i> الاعدادات</a>
               </div>
-            </div>
+            </div> 
           </div>
         </div>
-        <div class="col-lg-9 col-md-7">
+        <div class="col-lg-10 col-md-8">
+          <div class="row bg-primary text-white mb-2" style="width:917px;"><h3>نظام ادارة المدارس</h3></div>
           <div class="row">
                
-              <div class="card bg-danger  text-white text-center pt-4" style="width:18em; margin-left:10px;">
+              <div class="card bg-danger  text-white text-center pt-4" style="width:20em; margin-left:10px;">
                 <div class="card-body h4">3</div>
-                <div class="card-footer">محموعة الطلاب</div>
+                <div class="card-footer"> <i class="fa fa-group"></i> محموعة الطلاب</div>
               </div>
       
               <div class="card bg-success text-center pt-4" style="width:18em; margin-left:10px;">
                 <div class="card-body text-white h3">3</div>
-                <div class="card-footer text-white">مجموع الاساتذه</div>
+                <div class="card-footer text-white"><i class="fa fa-users"></i> مجموع الاساتذه</div>
               </div>     
               
               <div class="card bg-primary text-center pt-4" style="width:18em; margin-left:10px;">
                 <div class="card-body text-white h3">1</div>
-                <div class="card-footer text-white">مجموع اوليه الامور</div>
+                <div class="card-footer text-white"><i class="fa fa-user"></i> مجموع اوليه الامور</div>
               </div>  
             
             </div>
-            <div class="row row-style">
-              <div class="h5 mt-2 mb-2">أيقونات نظام المدرسة لى وصول اسرع</div>
+            <div class="row row-style text-primary mt-2">
               <div class="card text-center" style="width:9em; margin-left:10px; margin-bottom:10px; height:90px;">
-               
-                <div class="card-body">
+               <a href="">
+                <div class="card-body text-center">
+                  <div class="fa fa-group"></div>
                    <div class="h6">الطلاب</div>
                 </div>
+              </a>
               </div>
               <div class="card text-center" style="width:9em; margin-left:10px; height:90px;">
               
-                <div class="card-body">
+                <a href="#">
+                <div class="card-body text-center">
+                  <div class="fa fa-users"></div>
                   <div class="h6">الاساتذه</div>
                 </div>
-
+              </a>
               </div>
               <div class="card text-center" style="width:9em; margin-left:10px; height:90px;">
               
-                <div class="card-body">
+                <a href="#">
+                <div class="card-body text-center">
+                  <div class="fa fa-user"></div>
                   <div class="h6">الاباء</div>
                 </div>
-
+                </a>
               </div>
               <div class="card text-center" style="width:9em; margin-left:10px; height:90px;">
               
-                <div class="card-body">
+                <a href="#">
+                <div class="card-body text-center">
+                  <div class="fa fa-align-center"></div>
                   <div class="h6">المواد</div>
                 </div>
+              </a>
 
               </div>
               <div class="card text-center" style="width:9em; margin-left:10px; height:90px;">
-              
-                <div class="card-body">
+              <a href="#">
+                <div class="card-body text-center">
+                  <div class="fa fa-list"></div>
                   <div class="h6">الاقسام</div>
                 </div>
-                
+              </a>
               </div>
 
               <div class="card text-center" style="width:9em; margin-left:10px; height:90px;">
-              
-                <div class="card-body">
+              <a href="#">
+                <div class="card-body text-center">
+                  <div class="fa fa-sitemap"></div>
                   <div class="h6">الفصول</div>
                 </div>
+                </a>
 
               </div>
               <div class="card text-center" style="width:9em; margin-left:10px; height:90px;">
-                <div class="card-body">
+                <a href="#">
+                <div class="card-body text-center">
+                  <div class="fa fa-edit"></div>
                   <div class="h6">الحضور</div>
                 </div>
-
+              </a>
               </div>
               <div class="card text-center" style="width:9em; margin-left:10px; height:90px;">
-              
-                <div class="card-body">
+              <a href="#">
+                <div class="card-body text-center">
+                  <div class="fa fa-graduation-cap"></div>
                   <div class="h6">الامتحانات</div>
                 </div>
-
+              </a>
               </div>
               <div class="card text-center" style="width:9em; margin-left:10px; height:90px;">
-              
-                <div class="card-body">
+              <a href="#">
+                <div class="card-body text-center">
+                  <div class=""></div>
                   <div class="h6">درجات الامتحانات</div>
                 </div>
-                
+                </a>
               </div>
               <div class="card text-center" style="width:9em; margin-left:10px; height:90px;">
-              
-                <div class="card-body">
+              <a href="#">
+                <div class="card-body text-center">
+                  <div class="fa fa-credit-card"></div>
                   <div class="h6">الحسابات</div>
                 </div>
-                
+                </a>
               </div>
 
               <div class="card" style="width:9em; margin-left:10px; height:90px;">
-              
-                <div class="card-body">
+              <a href="#">
+                <div class="card-body text-center">
+                  <div class="fa fa-credit-card"></div>
                   <div class="h6">الدفع</div>
                 </div>
-                
+                </a>
               </div>
               <div class="card" style="width:9em; margin-left:10px; height:90px;">
-              
-                <div class="card-body">
+              <a href="#">
+                <div class="card-body text-center">
+                  <div class="fa fa-book"></div>
                   <div class="h6">المكتبه</div>
                 </div>
-                
+              </a>
               </div>
-              <div class="card" style="width:9em; margin-left:10px; height:90px;">
-              
-                <div class="card-body">
+              <div class="card mt-2" style="width:9em; margin-left:10px; height:90px;">
+              <a href="#">
+                <div class="card-body text-center">
+                  <div class="fa fa-book"></div>
                   <div class="h6">الترحيل</div>
                 </div>
-              
+              </a>
                 
               </div>
             </div>
