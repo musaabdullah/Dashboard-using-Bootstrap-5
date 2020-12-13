@@ -1,5 +1,4 @@
 # Dashboard-using-Bootstrap-5
-Dashbaord using Bootstrap 5 
 
 ## General info
 Dashboard for school mangement system in arabic language using boostrap 5 and HMTL.
@@ -10,4 +9,4 @@ Project is created with :
 * CSS 3
 * Bootstrap 5
 
-![image] (img.png)
+![image] (/img.png)
